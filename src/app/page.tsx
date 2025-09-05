@@ -1,8 +1,8 @@
 import styles from "./css/page.module.css";
 import "./css/table.css";
-import { products} from './actions/data';
-import { Product } from "./model/appiData.interface";
-import { DisplayProduct } from "./actions/display";
+import { products} from './data/products';
+import { Product } from "./model/product";
+import { DisplayProduct } from "./components/display";
 
 export default async function Home() {
 

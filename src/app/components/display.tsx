@@ -1,5 +1,4 @@
-import { Product } from "../model/appiData.interface";
-import { photosUrl } from "../important/data.source";
+import { Product } from "../model/product";
 import '../css/product.css';
 
 export const DisplayProduct = ({product,number}:{product:Product, number: number}) => {
