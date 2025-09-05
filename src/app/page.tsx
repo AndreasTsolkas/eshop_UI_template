@@ -1,6 +1,6 @@
 import styles from "./css/page.module.css";
 import "./css/table.css";
-import {getProducts, products} from './actions/data';
+import { products} from './actions/data';
 import { Product } from "./model/appiData.interface";
 import { DisplayProduct } from "./actions/display";
 
