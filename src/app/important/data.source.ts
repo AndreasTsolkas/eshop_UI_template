@@ -1,4 +1,3 @@
-export const backEndBaseUrl = 'https://be.givelink.app/';
+export const JsonPlaceHolderBaseUrl = 'https://jsonplaceholder.typicode.com/';
 
-export const dataUrl = backEndBaseUrl+'data';
-export const imageBaseUrl = backEndBaseUrl+'images/products/';
+export const photosUrl = JsonPlaceHolderBaseUrl+'photos';
