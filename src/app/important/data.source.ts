@@ -1,3 +1,3 @@
-export const JsonPlaceHolderBaseUrl = 'https://jsonplaceholder.typicode.com/';
+export const baseUrl = 'https://picsum.photos/';
 
-export const photosUrl = JsonPlaceHolderBaseUrl+'photos';
+export const photosUrl = baseUrl+'photos';

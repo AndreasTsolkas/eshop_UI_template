@@ -1,11 +1,10 @@
 import styles from "./css/page.module.css";
 import "./css/table.css";
-import {getProducts} from './actions/data';
+import {getProducts, products} from './actions/data';
 import { Product } from "./model/appiData.interface";
 import { DisplayProduct } from "./actions/display";
 
 export default async function Home() {
-  const products = await getProducts();
 
   return (
     <div className={styles.page}>
