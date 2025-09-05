@@ -1,10 +1,10 @@
-import { Product } from "../interfaces/appiData.interface";
-import { imageBaseUrl } from "../important/data.source";
+import { Product } from "../model/appiData.interface";
+import { photosUrl } from "../important/data.source";
 import '../css/product.css';
 
 export const DisplayProduct = ({product,number}:{product:Product, number: number}) => {
 
-    const imageUrl = imageBaseUrl+product.imagePath;
+    const imageUrl = photosUrl+product.imagePath;
 
     return(
         <>
